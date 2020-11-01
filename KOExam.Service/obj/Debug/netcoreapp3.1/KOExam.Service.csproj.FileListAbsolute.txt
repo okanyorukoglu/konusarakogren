@@ -1,0 +1,14 @@
+C:\Users\OKAN\Desktop\Daily\KOExam\KOExam.Service\bin\Debug\netcoreapp3.1\KOExam.Core.dll
+C:\Users\OKAN\Desktop\Daily\KOExam\KOExam.Service\bin\Debug\netcoreapp3.1\KOExam.Data.dll
+C:\Users\OKAN\Desktop\Daily\KOExam\KOExam.Service\obj\Debug\netcoreapp3.1\KOExam.Service.csprojAssemblyReference.cache
+C:\Users\OKAN\Desktop\Daily\KOExam\KOExam.Service\obj\Debug\netcoreapp3.1\KOExam.Service.AssemblyInfoInputs.cache
+C:\Users\OKAN\Desktop\Daily\KOExam\KOExam.Service\obj\Debug\netcoreapp3.1\KOExam.Service.AssemblyInfo.cs
+C:\Users\OKAN\Desktop\Daily\KOExam\KOExam.Service\bin\Debug\netcoreapp3.1\KOExam.Service.deps.json
+C:\Users\OKAN\Desktop\Daily\KOExam\KOExam.Service\bin\Debug\netcoreapp3.1\KOExam.Service.dll
+C:\Users\OKAN\Desktop\Daily\KOExam\KOExam.Service\bin\Debug\netcoreapp3.1\KOExam.Service.pdb
+C:\Users\OKAN\Desktop\Daily\KOExam\KOExam.Service\bin\Debug\netcoreapp3.1\KOExam.Core.pdb
+C:\Users\OKAN\Desktop\Daily\KOExam\KOExam.Service\bin\Debug\netcoreapp3.1\KOExam.Data.pdb
+C:\Users\OKAN\Desktop\Daily\KOExam\KOExam.Service\obj\Debug\netcoreapp3.1\KOExam.Service.csproj.CopyComplete
+C:\Users\OKAN\Desktop\Daily\KOExam\KOExam.Service\obj\Debug\netcoreapp3.1\KOExam.Service.dll
+C:\Users\OKAN\Desktop\Daily\KOExam\KOExam.Service\obj\Debug\netcoreapp3.1\KOExam.Service.pdb
+C:\Users\OKAN\Desktop\Daily\KOExam\KOExam.Service\obj\Debug\netcoreapp3.1\KOExam.Service.csproj.CoreCompileInputs.cache

@@ -1,0 +1,9 @@
+C:\Users\OKAN\Desktop\Daily\KOExam\KOExam.Core\bin\Debug\netcoreapp3.1\KOExam.Core.deps.json
+C:\Users\OKAN\Desktop\Daily\KOExam\KOExam.Core\bin\Debug\netcoreapp3.1\KOExam.Core.dll
+C:\Users\OKAN\Desktop\Daily\KOExam\KOExam.Core\bin\Debug\netcoreapp3.1\KOExam.Core.pdb
+C:\Users\OKAN\Desktop\Daily\KOExam\KOExam.Core\obj\Debug\netcoreapp3.1\KOExam.Core.AssemblyInfoInputs.cache
+C:\Users\OKAN\Desktop\Daily\KOExam\KOExam.Core\obj\Debug\netcoreapp3.1\KOExam.Core.AssemblyInfo.cs
+C:\Users\OKAN\Desktop\Daily\KOExam\KOExam.Core\obj\Debug\netcoreapp3.1\KOExam.Core.dll
+C:\Users\OKAN\Desktop\Daily\KOExam\KOExam.Core\obj\Debug\netcoreapp3.1\KOExam.Core.pdb
+C:\Users\OKAN\Desktop\Daily\KOExam\KOExam.Core\obj\Debug\netcoreapp3.1\KOExam.Core.csproj.CoreCompileInputs.cache
+C:\Users\OKAN\Desktop\Daily\KOExam\KOExam.Core\obj\Debug\netcoreapp3.1\KOExam.Core.csprojAssemblyReference.cache

@@ -1,0 +1,51 @@
+﻿@model List<KOExam.Core.Entities.Test>
+
+@{int i = 0; }
+<!DOCTYPE html>
+<div class="container">
+    <main role="main" class="pb-3">
+
+        <head>
+            <meta name="viewport" content="width=device-width" />
+            <title>Index</title>
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        </head>
+        <body>
+            <h1> @Html.ActionLink("Yeni Sınav Oluştur ", "Index", "Test", null, new { @class = "btn btn-info" })    </h1>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">Tests</th>
+                        <th scope="col">Dates</th>
+                        <th scope="col">Actions</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.Count == 0)
+                    {
+                        <p>Henüz hazırlanmış bir sınav yoktur.</p>
+                    }
+                    else
+                    {
+                        @foreach (var item in Model)
+                        {
+                            ++i;
+                            <tr>
+                                <td><a class="text-dark" asp-action="GetTest" asp-route-id="@item.Id"><b>@i</b> - @item.Title</a></td>
+                                <td>@item.CreatedDate</td>
+                                <td>
+                                    <a asp-action="Delete" asp-route-id="@item.Id" role="button"
+                                       class="btn btn-danger">Sil</a>
+                                </td>
+                            </tr>
+                        }}
+
+
+                </tbody>
+            </table>
+        </body>
+        </html>
+    </main>
+</div>

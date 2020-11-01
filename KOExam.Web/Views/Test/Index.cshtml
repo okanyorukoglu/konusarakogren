@@ -1,0 +1,112 @@
+﻿
+@model KOExam.Web.DTOs.TestDTO
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<form id="form" class="w-75 mx-auto p-3" method="post" asp-action="CreateExam" asp-controller="Test">
+    <div id="titles">
+        <p>
+            <select asp-for="Question.Title" class="form-control" onChange="myNewFunction(this);">
+                <option hidden value="-1">Seçiniz</option>
+                <option value="@ViewBag.title1">@ViewBag.title1</option>
+                <option value="@ViewBag.title2">@ViewBag.title2</option>
+                <option value="@ViewBag.title3">@ViewBag.title3</option>
+                <option value="@ViewBag.title4">@ViewBag.title4</option>
+                <option value="@ViewBag.title5">@ViewBag.title5</option>
+            </select>
+        </p>
+    </div>
+    
+    <textarea id="paragraf" class="form-control"  id="exampleFormControlTextarea1" rows="10" asp-for="Question.WiredBody"></textarea>
+    <hr class="my-3">
+
+    @for (int i = 0; i < 4; i++)
+    {
+        <p>
+            <textarea placeholder="Soru @(i + 1)" class="form-control" asp-for="Question.Questions[i].QuestionText"></textarea>
+
+        </p>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <textarea placeholder="A) " class="form-control" asp-for="Question.Questions[i].A_Option"></textarea>
+            </div>
+            <div class="form-group col-md-6">
+                <textarea placeholder="B) " class="form-control" asp-for="Question.Questions[i].B_Option"></textarea>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <textarea placeholder="C) " class="form-control" asp-for="Question.Questions[i].C_Option"></textarea>
+            </div>
+            <div class="form-group col-md-6">
+                <textarea placeholder="D) " class="form-control" asp-for="Question.Questions[i].D_Option"></textarea>
+            </div>
+        </div>
+
+        <p>
+            <select class="form-control" required="required" asp-for="Question.Questions[i].TrueSolution">
+                <option hidden value="-1">Doğru Şıkkı Seçiniz</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+            </select>
+
+        </p>
+
+        <hr class="my-3">
+    }
+
+
+    <button type="submit" class="btn btn-primary mb-2">Create Exam</button>
+</form>
+
+<script type="text/javascript">
+    function myNewFunction(sel) {
+        console.log(sel.selectedIndex);
+
+        var value = '';
+
+        switch (sel.selectedIndex) {
+
+            case 1:
+                value = "/div/div[3]/div/div/div[2]/div[1]/div/div[1]/div[1]/div[1]/div/ul/li[2]/a[2]";
+                break;
+            case 2:
+                value = "/div/div[3]/div/div/div[2]/div[1]/div/div[1]/div[1]/div[2]/div/ul/li[2]/a[2]";
+                break;
+            case 3:
+                value = "/div/div[3]/div/div/div[2]/div[1]/div/div[1]/div[2]/div[1]/div[1]/div/ul/li[2]/a[2]";
+                break;
+            case 4:
+                value = "/div/div[3]/div/div/div[2]/div[1]/div/div[1]/div[2]/div[1]/div[2]/div/ul/li[2]/a[2]";
+                break;
+            case 5:
+                value = "/div/div[3]/div/div/div[2]/div[1]/div/div[1]/div[2]/div[2]/div/ul/li[2]/a[2]";
+                break;
+            
+        }
+
+        $("#paragraf").html("Makale Yükleniyor...")
+        $.ajax({
+            type: "GET",
+            url: "/Test/getWiredBody/",
+            datatype: "json",
+            data: {
+                XPath: value
+            },
+            success: function (data) {
+                $("#paragraf").html(data)
+            }
+        });
+    };
+</script>
+
+
+
+
+
+

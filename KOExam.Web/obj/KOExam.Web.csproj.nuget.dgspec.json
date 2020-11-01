@@ -1,0 +1,306 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\OKAN\\Desktop\\Daily\\KOExam\\KOExam.Web\\KOExam.Web.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\OKAN\\Desktop\\Daily\\KOExam\\KOExam.Core\\KOExam.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\OKAN\\Desktop\\Daily\\KOExam\\KOExam.Core\\KOExam.Core.csproj",
+        "projectName": "KOExam.Core",
+        "projectPath": "C:\\Users\\OKAN\\Desktop\\Daily\\KOExam\\KOExam.Core\\KOExam.Core.csproj",
+        "packagesPath": "C:\\Users\\OKAN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\OKAN\\Desktop\\Daily\\KOExam\\KOExam.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\OKAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.26, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\OKAN\\Desktop\\Daily\\KOExam\\KOExam.Data\\KOExam.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\OKAN\\Desktop\\Daily\\KOExam\\KOExam.Data\\KOExam.Data.csproj",
+        "projectName": "KOExam.Data",
+        "projectPath": "C:\\Users\\OKAN\\Desktop\\Daily\\KOExam\\KOExam.Data\\KOExam.Data.csproj",
+        "packagesPath": "C:\\Users\\OKAN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\OKAN\\Desktop\\Daily\\KOExam\\KOExam.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\OKAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\OKAN\\Desktop\\Daily\\KOExam\\KOExam.Core\\KOExam.Core.csproj": {
+                "projectPath": "C:\\Users\\OKAN\\Desktop\\Daily\\KOExam\\KOExam.Core\\KOExam.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\OKAN\\Desktop\\Daily\\KOExam\\KOExam.Service\\KOExam.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\OKAN\\Desktop\\Daily\\KOExam\\KOExam.Service\\KOExam.Service.csproj",
+        "projectName": "KOExam.Service",
+        "projectPath": "C:\\Users\\OKAN\\Desktop\\Daily\\KOExam\\KOExam.Service\\KOExam.Service.csproj",
+        "packagesPath": "C:\\Users\\OKAN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\OKAN\\Desktop\\Daily\\KOExam\\KOExam.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\OKAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\OKAN\\Desktop\\Daily\\KOExam\\KOExam.Core\\KOExam.Core.csproj": {
+                "projectPath": "C:\\Users\\OKAN\\Desktop\\Daily\\KOExam\\KOExam.Core\\KOExam.Core.csproj"
+              },
+              "C:\\Users\\OKAN\\Desktop\\Daily\\KOExam\\KOExam.Data\\KOExam.Data.csproj": {
+                "projectPath": "C:\\Users\\OKAN\\Desktop\\Daily\\KOExam\\KOExam.Data\\KOExam.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\OKAN\\Desktop\\Daily\\KOExam\\KOExam.Web\\KOExam.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\OKAN\\Desktop\\Daily\\KOExam\\KOExam.Web\\KOExam.Web.csproj",
+        "projectName": "KOExam.Web",
+        "projectPath": "C:\\Users\\OKAN\\Desktop\\Daily\\KOExam\\KOExam.Web\\KOExam.Web.csproj",
+        "packagesPath": "C:\\Users\\OKAN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\OKAN\\Desktop\\Daily\\KOExam\\KOExam.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\OKAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\OKAN\\Desktop\\Daily\\KOExam\\KOExam.Core\\KOExam.Core.csproj": {
+                "projectPath": "C:\\Users\\OKAN\\Desktop\\Daily\\KOExam\\KOExam.Core\\KOExam.Core.csproj"
+              },
+              "C:\\Users\\OKAN\\Desktop\\Daily\\KOExam\\KOExam.Data\\KOExam.Data.csproj": {
+                "projectPath": "C:\\Users\\OKAN\\Desktop\\Daily\\KOExam\\KOExam.Data\\KOExam.Data.csproj"
+              },
+              "C:\\Users\\OKAN\\Desktop\\Daily\\KOExam\\KOExam.Service\\KOExam.Service.csproj": {
+                "projectPath": "C:\\Users\\OKAN\\Desktop\\Daily\\KOExam\\KOExam.Service\\KOExam.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.26, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
